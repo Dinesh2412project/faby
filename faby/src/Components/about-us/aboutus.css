@@ -1,0 +1,102 @@
+.aboutus-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.viralservice.com/wp/wp-content/uploads/2018/10/email-marketing.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.aboutus-heading{
+    text-align: center;
+    color: white;
+}
+.aboutus-heading h2{
+padding-top: 30px;
+font-weight: bolder;
+}
+.aboutus-heading p{
+    color: rgb(177, 174, 174);
+    margin-top: 20px;
+}
+.aboutus-boxess{
+    width: 100%;
+    height: 460px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.about-client{
+    width: 380px;
+    height: 370px;
+    text-align: center;
+    position:relative;
+}
+.about-client h6{
+    position: absolute;
+    top: 9rem;
+    right: 6rem;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 2px 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #e67e22;
+
+}
+.about-client img{
+    width: 50%;
+height: 200px;
+padding: 20px;
+border-radius: 50%;
+}
+.about-client h3{
+
+    font-size: 23px;
+    color: white;
+    font-weight: 300;
+}
+.about-client p{
+    text-align: center;
+    color: rgb(206, 205, 205);
+}
+.aboutus-icon span{
+    margin: 10px;
+}
+.aboutus-icon span a{
+    font-size: 30px;
+    color: rgb(211, 208, 208);
+}
+
+@media screen and (max-width:428px){
+    .aboutus-container{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    background-image: url("https://www.viralservice.com/wp/wp-content/uploads/2018/10/email-marketing.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.aboutus-heading{
+    text-align: center;
+    color: white;
+}
+.aboutus-heading h2{
+padding-top: 30px;
+font-weight: bolder;
+}
+.aboutus-heading p{
+    color: rgb(177, 174, 174);
+    margin-top: 20px;
+}
+.aboutus-boxess{
+    width: 100%;
+    height: 92%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}

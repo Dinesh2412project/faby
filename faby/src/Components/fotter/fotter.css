@@ -1,0 +1,115 @@
+.fotter-container{
+    width: 100%;
+    height: 400px;
+    background-color:#3d3d3d;
+}
+.fotter-boxess{
+    width: 90%;
+    height: 280px;
+    margin: auto;
+    color: rgb(218, 221, 221);
+    display: flex;
+    border-bottom: 1px solid  rgb(147, 148, 148) ;
+}
+.fotter-box{
+    width: 400px;
+    height: 350px;
+    text-align: start;
+}
+.fotter-box h2{
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-top: 2rem;
+    margin-left: 10px;
+}
+.fotter-box p{
+    text-align:start;
+    margin-left: 10px;
+}
+.fotter-box  span a{
+    margin-left: 10px;
+    text-transform: capitalize;
+    color: #f39c12;
+    text-decoration: none;
+}
+.fotter-box  span a:hover{
+    text-decoration:underline;
+}
+.fotter-box ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.fotter-box ul li{
+    padding: 10px;
+} 
+.fotter-box li span{
+    margin-left: 10px;
+}
+.fotter-icon{
+    display: flex;
+    gap: 20px;
+}
+.fotter-icon h6{
+    font-size: 30px;
+    color: rgb(202, 203, 204);
+}
+.fotter-icon h6:hover{
+color:#f39c12 ;
+}
+.fotter-last{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-size: 17px;
+    color: rgb(218, 221, 223);
+}
+.fotter-last span{
+ color:#f39c12 ;   
+}
+@media screen and (max-width:428px) {
+    .fotter-container{
+    width: 100%;
+    height: 900px;
+    margin-top: 20px;
+    background-color:#3d3d3d;
+}
+.fotter-boxess{
+    width: 90%;
+    height: 800px;
+    margin:auto;
+    color: rgb(218, 221, 221);
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid  rgb(147, 148, 148) ;
+}
+.fotter-box{
+    width: 360px;
+    height: 350px;
+    text-align:start;
+}
+.fotter-box h2{
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-top: 2rem;
+    margin-left: 0px;
+}
+.fotter-box p{
+    text-align:start;
+    margin-left:0px;
+}
+.fotter-box  span a{
+    margin-left:10px;
+    text-transform: capitalize;
+    color: #f39c12;
+    text-decoration: none;
+}
+
+.fotter-last{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 17px;
+    color: rgb(218, 221, 223);
+}
+.fotter-last span{
+ color:#f39c12 ;   
+}
+}

@@ -1,0 +1,136 @@
+.question-container{
+    width: 100%;
+    height: 140vh;
+}
+.question-heading{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.question-heading h1{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgb(180, 177, 177);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.question-heading p{
+    color: rgb(153, 154, 155);
+}
+.question-boxess{
+    width: 75%;
+    height: 540px;
+    margin:auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ques-box{
+    width: 500px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ques-box h1{
+    padding:13px 26px;
+    border-radius: 50%;
+    margin-top: 20px;
+    font-size: 30px;
+    border: 1px solid #f07357;
+    
+}
+.ques-box h1:hover{
+    background-color:#f07357;
+    border: 1px solid #f07357;
+    color: white;
+}
+.ques-box h3{
+font-size: 23px;
+font-weight: 400;
+}
+.ques-box p{
+    margin: 10px;
+    color: rgb(191, 193, 194);
+    text-align: center;
+}
+.active{
+    background-color:#eeeef0;
+    color: rgb(114, 113, 113);
+}
+.question-btn{
+    display: flex;
+    gap: 10px;
+    text-transform:capitalize;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 43%;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    margin-top: 3rem;
+    padding: 15px 25px;
+}
+.question-btn:hover{
+    background-color: #a55815;
+}
+@media screen and (max-width:428px) {
+    .question-container{
+    width: 100%;
+    height: 150%;
+}
+.question-heading{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.question-heading h1{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgb(180, 177, 177);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.question-heading p{
+    color: rgb(153, 154, 155);
+}
+.question-boxess{
+    width: 97%;
+    height: 120%;
+    margin:auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ques-box{
+    width: 400px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.active{
+    background-color:white;
+    color: rgb(114, 113, 113);
+}
+
+.question-btn{
+    display: flex;
+    gap: 10px;
+    text-transform:capitalize;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 30%;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    margin-top: 3rem;
+    padding: 15px 25px;
+}
+.question-btn:hover{
+    background-color: #a55815;
+}
+}
