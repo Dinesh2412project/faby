@@ -18,7 +18,7 @@ const Navbar = () => {
           {open ?<FaWindowClose /> :<IoMenuSharp />}
         </div>
         <ul className={open ?'nav-icon active':'nav-icon'}>
-            <li><Link onClick={closemenu} to="/" className='nav-link'>Top</Link></li>
+            <li><Link onClick={closemenu} to="/" className='nav-link'>Home</Link></li>
             <li><Link onClick={closemenu} to="Features"className='nav-link' >features</Link></li>
             <li><Link onClick={closemenu} to="clients" className='nav-link'>clients</Link></li>
             <li><Link onClick={closemenu} to="price" className='nav-link'>price</Link></li>
