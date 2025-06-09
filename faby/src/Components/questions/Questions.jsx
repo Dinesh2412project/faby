@@ -3,41 +3,41 @@ import { IoReloadOutline } from "react-icons/io5";
 
 const Questions = () => {
   return (
-    <div className='question-container'>
-        <div className="question-heading">
-            <h1>Questions?</h1>
-            <p>Here is a collection of some frequently asked questions from our clients:</p>
+    <div className='faq'>
+        <div className="faq__header">
+            <h1 className='faq__title'>Questions?</h1>
+            <p className='faq__subtitle'>Here is a collection of some frequently asked questions from our clients:</p>
         </div>
-        <div className="question-boxess">
-            <div className="ques-box active">
-                <h1>1</h1>
-                <h3>What can I learn here?</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+        <div className="faq__list">
+            <div className="faq__item active">
+                <h1 className='faq__number'>1</h1>
+                <h3 className='faq__question'>What can I learn here?</h3>
+                <p className='faq__answer'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
 
             </div>
 
-            <div className="ques-box">
-                <h1>2</h1>
-                <h3>Does it come with videos?</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+            <div className="faq__item">
+                <h1 className='faq__number'>2</h1>
+                <h3 className='faq__question'>Does it come with videos?</h3>
+                <p className='faq__answer'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
                 
             </div>
 
-            <div className="ques-box">
-                <h1>3</h1>
-                <h3>Types of payments you accept?</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+            <div className="faq__item">
+                <h1 className='faq__number'>3</h1>
+                <h3 className='faq__question'>Types of payments you accept?</h3>
+                <p className='faq__answer'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
                 
             </div>
 
-            <div className="ques-box active">
-                <h1>4</h1>
-                <h3>Do you have an affiliate program?</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+            <div className="faq__item active">
+                <h1 className='faq__number'>4</h1>
+                <h3 className='faq__question'>Do you have an affiliate program?</h3>
+                <p className='faq__answer'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
                 
             </div>
         </div>
-        <button className='question-btn'>lode more <span><IoReloadOutline /></span></button>
+        <button className='faq__load-more'>lode more <span><IoReloadOutline /></span></button>
     </div>
   )
 }

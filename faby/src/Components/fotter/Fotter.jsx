@@ -12,14 +12,14 @@ import { FaPinterest } from "react-icons/fa6";
 const Fotter = () => {
   return (
     <div className='fotter-container'>
-        <div className="fotter-boxess">
-            <div className="fotter-box">
+        <div className="footer-sections">
+            <div className="about-section">
                 <h2>about us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium porro veniam repudiandae ex voluptatum? Earum maxime deserunt explicabo corrupti, inventore illum fuga totam iste debitis impedit! Suscipit molestiae nemo commodi.</p>
                 <span><a href="#">our team</a></span>
             </div>
 
-            <div className="fotter-box">
+            <div className="about-section">
                 <h2>Contact Info</h2>
                 <ul>
                     <li><FaMapMarkerAlt /> <span>Via Rossini 10, 10136 Turin Italy</span></li>
@@ -29,7 +29,7 @@ const Fotter = () => {
                 </ul>
             </div>
 
-            <div className="fotter-box">
+            <div className="about-section">
             <h2>We're Social</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam fuga sit deleniti, corrupti vel saepe sed ipsam voluptatem inventore laudantium.</p>
             <div className="fotter-icon">
@@ -42,7 +42,7 @@ const Fotter = () => {
 
             </div>
         </div>
-        <h3 className='fotter-last'>© Faby Bootstrap Template by <span>AZMIND</span></h3>
+        <h3 className='footer-credits'>© Faby Bootstrap Template by <span>AZMIND</span></h3>
     </div>
   )
 }

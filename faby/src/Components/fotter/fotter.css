@@ -3,7 +3,7 @@
     height: 400px;
     background-color:#3d3d3d;
 }
-.fotter-boxess{
+.footer-sections{
     width: 90%;
     height: 280px;
     margin: auto;
@@ -11,38 +11,38 @@
     display: flex;
     border-bottom: 1px solid  rgb(147, 148, 148) ;
 }
-.fotter-box{
+.about-section{
     width: 400px;
     height: 350px;
     text-align: start;
 }
-.fotter-box h2{
+.about-section h2{
     text-transform: capitalize;
     font-size: 25px;
     margin-top: 2rem;
     margin-left: 10px;
 }
-.fotter-box p{
+.about-section p{
     text-align:start;
     margin-left: 10px;
 }
-.fotter-box  span a{
+.about-section  span a{
     margin-left: 10px;
     text-transform: capitalize;
     color: #f39c12;
     text-decoration: none;
 }
-.fotter-box  span a:hover{
+.about-section  span a:hover{
     text-decoration:underline;
 }
-.fotter-box ul{
+.about-section ul{
     list-style-type: none;
     margin-top: 10px;
 }
-.fotter-box ul li{
+.about-section ul li{
     padding: 10px;
 } 
-.fotter-box li span{
+.about-section li span{
     margin-left: 10px;
 }
 .fotter-icon{
@@ -56,13 +56,13 @@
 .fotter-icon h6:hover{
 color:#f39c12 ;
 }
-.fotter-last{
+.footer-credits{
     margin-top: 2rem;
     margin-left: 3rem;
     font-size: 17px;
     color: rgb(218, 221, 223);
 }
-.fotter-last span{
+.footer-credits span{
  color:#f39c12 ;   
 }
 @media screen and (max-width:428px) {
@@ -72,7 +72,7 @@ color:#f39c12 ;
     margin-top: 20px;
     background-color:#3d3d3d;
 }
-.fotter-boxess{
+.footer-sections{
     width: 90%;
     height: 800px;
     margin:auto;
@@ -81,35 +81,35 @@ color:#f39c12 ;
     flex-direction: column;
     border-bottom: 1px solid  rgb(147, 148, 148) ;
 }
-.fotter-box{
+.about-section{
     width: 360px;
     height: 350px;
     text-align:start;
 }
-.fotter-box h2{
+.about-section h2{
     text-transform: capitalize;
     font-size: 25px;
     margin-top: 2rem;
     margin-left: 0px;
 }
-.fotter-box p{
+.about-section p{
     text-align:start;
     margin-left:0px;
 }
-.fotter-box  span a{
+.about-section  span a{
     margin-left:10px;
     text-transform: capitalize;
     color: #f39c12;
     text-decoration: none;
 }
 
-.fotter-last{
+.footer-credits{
     margin-top: 2rem;
     margin-left: 1rem;
     font-size: 17px;
     color: rgb(218, 221, 223);
 }
-.fotter-last span{
+.footer-credits span{
  color:#f39c12 ;   
 }
 }

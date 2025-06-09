@@ -1,8 +1,8 @@
-.bottum{
+.bottum-section{
     margin-top: 0rem;
     background-color: #f6fbfc;
 }
-.bottum h1{
+.bottum-heading{
     text-align: center;
     text-transform: capitalize;
     font-size: 35px;
@@ -11,57 +11,57 @@
     text-decoration: underline;
     padding-top: 3rem;
 }
-.bottum p{
+.bottum-subtext{
     text-align: center;
     text-transform: capitalize;
     font-size: 20px;
     font-weight: 400;
     color: rgb(138, 132, 132);
 }
-.bottum-box{
+.bottum-container{
     margin-top: 5rem;
 }
-.bottum-boxes{
+.bottum-content-column{
    display: flex;
    flex-direction: column;
 }
-.bottom-b{
+.bottum-box{
     display: flex;
     margin-top: 30px;
 }
-.bottum-icon{
+.bottum-icon-wrapper{
     margin: 10px;
 }
-.bt-icons{
+.bottum-icons{
     font-size: 40px;
     background-color:#e67e22;
     color: white;
     padding: 5px;
     border-radius: 50px;
 }
-.bottum-cont h3{
+.bottom-title{
     font-size: 25px;
     margin-left: 30px;
 }
-.bottum-cont p{
+.bottum-description{
     margin-left: 30px;
     font-size: 14px;
     text-align: start;
 }
-.btm-img img{
+.bottum-image{
     width: 80%;
     margin-left: 20px;
 }
 @media screen and (max-width:428px) {
-    .btm-img img{
+    .bottum-image{
     width: 95%;
     margin-left: 10px;
 }
-.bottum-boxes{
+.bottum-content-column{
    display: flex;
    flex-direction: column;
 }
-.bottom-b{
+.bottum-box{
     display: flex;
     width: 95%;
     flex-direction: column;

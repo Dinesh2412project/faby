@@ -1,23 +1,23 @@
-.aboutus-container{
+.about-us{
     width: 100%;
     height: 100vh;
     background-image: url("https://www.viralservice.com/wp/wp-content/uploads/2018/10/email-marketing.jpg");
     background-position: center;
     background-size: cover;
 }
-.aboutus-heading{
+.about-us__header{
     text-align: center;
     color: white;
 }
-.aboutus-heading h2{
+.about-us__header h2{
 padding-top: 30px;
 font-weight: bolder;
 }
-.aboutus-heading p{
+.about-us__header p{
     color: rgb(177, 174, 174);
     margin-top: 20px;
 }
-.aboutus-boxess{
+.about-us__team{
     width: 100%;
     height: 460px;
     display: flex;
@@ -25,16 +25,16 @@ font-weight: bolder;
     justify-content: center;
     align-items: center;
 }
-.about-client{
+.team-member{
     width: 380px;
     height: 370px;
     text-align: center;
     position:relative;
 }
-.about-client h6{
+.team-member h6{
     position: absolute;
     top: 9rem;
-    right: 6rem;
+    right: 5rem;
     font-size: 15px;
     text-transform: uppercase;
     padding: 2px 10px;
@@ -44,19 +44,19 @@ font-weight: bolder;
     background-color: #e67e22;
 
 }
-.about-client img{
+.team-member__photo{
     width: 50%;
 height: 200px;
 padding: 20px;
 border-radius: 50%;
 }
-.about-client h3{
+.team-member__name{
 
     font-size: 23px;
     color: white;
     font-weight: 300;
 }
-.about-client p{
+.team-member__role{
     text-align: center;
     color: rgb(206, 205, 205);
 }
@@ -69,7 +69,7 @@ border-radius: 50%;
 }
 
 @media screen and (max-width:428px){
-    .aboutus-container{
+    .about-us{
     width: 100%;
     height: 100%;
     margin-top: 20px;
@@ -77,19 +77,19 @@ border-radius: 50%;
     background-position: center;
     background-size: cover;
 }
-.aboutus-heading{
+.about-us__header{
     text-align: center;
     color: white;
 }
-.aboutus-heading h2{
+.about-us__header h2{
 padding-top: 30px;
 font-weight: bolder;
 }
-.aboutus-heading p{
+.about-us__header p{
     color: rgb(177, 174, 174);
     margin-top: 20px;
 }
-.aboutus-boxess{
+.about-us__team{
     width: 100%;
     height: 92%;
     display: flex;

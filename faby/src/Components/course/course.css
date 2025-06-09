@@ -1,56 +1,56 @@
-.course-container{
+.course-section{
     width: 100%;
     height: 130vh;
 }
-.course-firstbox{
+.course-section__intro{
     display: flex;
     width: 100%;
     height: 400px;
 }
-.firstbox-left{
+.course-section__video{
     width: 50%;
     height: 400px;
 
 }
-.firstbox-left iframe{
+.course-section__video iframe{
     width: 70%;
     height: 300px;
     margin-left: 60px;
     margin-top: 30px;
 }
-.firstbox-right{
+.course-section__details{
     width: 45%;
     height: 400px;
 }
-.firstbox-right h2{
+.course-section__heading{
     margin-top: 50px;
     font-size: 23px;
     font-weight: 400;
     color: rgb(141, 137, 137);
 }
-.firstbox-right h5{
+.course-section__subheading{
     font-size: 17px;
     word-spacing: 1px;
     margin-top: 5px;
     color: rgb(179, 176, 176);
 }
-.firstbox-right p{
+.course-section__description{
     font-size: 15px;
     margin-top: 15px;
     color: rgb(179, 176, 176);
 }
-.firstbox-right span a{
+.course-section__cta a{
     color: orange;
 }     
                                    /*COURSE SECOND BOX METHOD IN FLEX.......*/
- .course-secondbox{
+ .course-section__signup-box{
     width: 100%;
     height: 370px;
     background-image: url("https://idtworldwide.in/img/educationCourse.jpg");
     background-position: center;
     background-size: cover; 
 }     
-.secondbox-content{
+.signup-box__content{
     width: 100%;
     height: 370px;
     display: flex;
@@ -58,18 +58,18 @@
     align-items: center;
     justify-content: center;
 }  
-.secondbox-content h1{
+.signup-box__title{
     color: white;
     margin-bottom: 30px;
       font-size: 35px;
      font-weight:600;
 }      
-.secondbox-content p{
+.signup-box__description{
     width: 70%;
     text-align: center;
     color: rgb(206, 205, 205);
 }    
-.course-btn{
+.signup-box__button{
     padding: 15px 30px;
     margin-top: 20px;
     border: none;
@@ -78,47 +78,47 @@
     text-transform: capitalize;
     border-radius: 5px;
 }                 
-.course-btn:hover{
+.signup-box__button:hover{
 background-color:#975419;
 }
 
 @media screen and (max-width:428px){
-    .course-container{
+    .course-section{
     width: 100%;
     height: 140vh;
 }
-.course-firstbox{
+.course-section__intro{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 650px;
 }
-.firstbox-left{
+.course-section__video{
     width: 98%;
     margin-left:5px;
     height: 300px;
 
 }
-.firstbox-left iframe{
+.course-section__video iframe{
     width: 97%;
     height: 270px;
     margin-left:2px;
     margin-top: 30px;
 }
-.firstbox-right{
+.course-section__details{
     width: 98%;
     height: 400px;
     text-align: center;
 }
                                    /*COURSE SECOND BOX METHOD IN FLEX.......*/
- .course-secondbox{
+ .course-section__signup-box{
     width: 100%;
     height: 370px;
     background-image: url("https://idtworldwide.in/img/educationCourse.jpg");
     background-position: center;
     background-size: cover; 
 }     
-.secondbox-content{
+.signup-box__content{
     width: 100%;
     height: 370px;
     display: flex;
@@ -126,18 +126,18 @@ background-color:#975419;
     align-items: center;
     justify-content: center;
 }  
-.secondbox-content h1{
+.signup-box__title{
     color: white;
     margin-bottom: 30px;
       font-size: 35px;
      font-weight:600;
 }      
-.secondbox-content p{
+.signup-box__description{
     width: 90%;
     text-align: center;
     color: rgb(206, 205, 205);
 }    
-.course-btn{
+.signup-box__button{
     padding: 15px 30px;
     margin-top: 20px;
     border: none;
@@ -146,7 +146,7 @@ background-color:#975419;
     text-transform: capitalize;
     border-radius: 5px;
 }                 
-.course-btn:hover{
+.signup-box__button:hover{
 background-color:#975419;
 }
     
