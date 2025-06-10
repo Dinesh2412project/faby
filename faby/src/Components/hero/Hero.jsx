@@ -6,9 +6,65 @@ import { FaMagic } from "react-icons/fa";
 import { FaVideo } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 
+const features = [
+  {
+    icon: <FaThumbsUp />,
+    title: "Easy To Use",
+    description: "Dicta architecto recusandae aliquam cupiditate quibusdam soluta ipsum inventore quo.",
+  },
+  {
+    icon: <IoSettings />,
+    title: "Fully Customizable",
+    description: "Dicta architecto recusandae aliquam cupiditate quibusdam soluta ipsum inventore quo.",
+  },
+  {
+    icon: <LuMessageCircleMore />,
+    title: "24/7 Support",
+    description: "Dicta architecto recusandae aliquam cupiditate quibusdam soluta ipsum inventore quo.",
+  },
+  {
+    icon: <FaMagic />,
+    title: "Smart Solutions",
+    description: "Dicta architecto recusandae aliquam cupiditate quibusdam soluta ipsum inventore quo.",
+  },
+  {
+    icon: <FaVideo />,
+    title: "Media Integration",
+    description: "Dicta architecto recusandae aliquam cupiditate quibusdam soluta ipsum inventore quo.",
+  },
+  {
+    icon: <GrInstagram />,
+    title: "Social Friendly",
+    description: "Dicta architecto recusandae aliquam cupiditate quibusdam soluta ipsum inventore quo.",
+  },
+];
+
 const Hero = () => {
   return (
-    <div className='features-section'>
+
+   
+      <div className="features-section">
+    <h1 className="features-title">Main Features</h1>
+    <h6 className="features-subtitle">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+    </h6>
+
+    <div className="features-grid">
+      {features.map((feature, index) => (
+        <div className="feature-card" key={index}>
+          <span className="feature-icon">{feature.icon}</span>
+          <h2 className="feature-title">{feature.title}</h2>
+          <p className="feature-description">{feature.description}</p>
+        </div>
+      ))}
+    </div>
+
+    <button className="features-cta-button">Sign Up Now</button>
+  </div>
+);
+
+   
+    {/*<div className='features-section'>
        <h1 className='features-title'>main features</h1>
        <h6 className='features-subtitle'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</h6>
        <div className="features-grid">
@@ -56,8 +112,10 @@ const Hero = () => {
             
        </div>
        <button className='features-cta-button'>sing up now</button>
-    </div>
-  )
+    </div>    */}
+
+
 }
+  
 
 export default Hero

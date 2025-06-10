@@ -5,10 +5,10 @@ import Col from 'react-bootstrap/Col';
 import { MdFilePresent } from "react-icons/md";
 
 
-
 const Bottum = () => {
   return (
-    <div className='bottum-section'>
+     
+  <div className='bottum-section'>
         <h1 className='bottum-heading'>more features</h1>
         <p className='bottum-subtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ea velit voluptatum!</p>
         <div className="bottum-container">
@@ -37,13 +37,13 @@ const Bottum = () => {
                  
             </Col>
 
-        <Col className='bottum-image-column'><img  className='bottum-image' src="https://www.pngitem.com/pimgs/m/430-4300583_apple-imac-imac-21-5-inch-hd-png.png" alt="img" /></Col>
+        <Col className='bottum-image-column'> <img  className='bottum-image' src="https://www.pngitem.com/pimgs/m/430-4300583_apple-imac-imac-21-5-inch-hd-png.png" alt="img" /></Col>
       
       </Row>
     </Container>
     </div>
     </div>
-  )
+ )
 }
 
 export default Bottum
